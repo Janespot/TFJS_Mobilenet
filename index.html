@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mobilenet Prediction</title>
+</head>
+<body>
+    <img id="img" src="./img.jpg" width="400" height="400" />
+    <div id="predict">
+        <div id="loader"></div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
+    <script src="./mobilenet.js" type="module"></script>
+</body>
+</html>

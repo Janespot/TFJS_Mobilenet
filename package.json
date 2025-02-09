@@ -1,0 +1,23 @@
+{
+  "name": "mobilenet",
+  "version": "1.0.0",
+  "description": "tensorflow js mobilenet model",
+  "main": "index.js",
+  "homepage": "https://Janespot.github.io/TFJS_Mobilenet",
+  "scripts": {
+    "build": "npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "@tensorflow/tfjs": "^4.22.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
